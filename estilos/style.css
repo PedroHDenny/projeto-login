@@ -53,19 +53,16 @@ div#imagem{
 div>h1{
     text-align: center;
     padding-top: 15px;
+    margin-bottom: 10px;
 }
 
 div>p{
-    padding-top: 20px ;
+    font-size: 0.9em
 }
 
 div#formulario{
     padding: 13px;
     display: block;
-}
-
-form>input{
-    
 }
 
 
