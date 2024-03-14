@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>Login</title>
 </head>
 <body>
@@ -16,7 +17,12 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-                    
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="iemail" required autocomplete="off" placeholder="Seu email">
+                    <label for="isenha"></label>
+                    <input type="password" name="senha" id="isenha" required minlength="5" maxlength="15" placeholder="Sua senha" >
+                    <input id="entrar" type="submit" value="Entrar">
+                    <input id="esqueci" type="button" value="Esqueci a senha &#x2709">
                 </form>
             </div>
         </section>
